@@ -156,7 +156,7 @@ html,body{
 }
 
 .header-photo{
-    width: 1344px;
+    width: 100%;
     border: 1px solid #43098f;
     height: 672px;    
     border-radius: 22px;
@@ -164,6 +164,9 @@ html,body{
 
 }
 
+.header-photo img{
+    width: 100%;
+}
 /* multiple images part */
 
 
