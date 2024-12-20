@@ -18,6 +18,7 @@ html,body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 8px;
     padding: 24px 0px 0px;
     position: relative;
@@ -28,7 +29,6 @@ html,body{
 
 .header .container{
     display: flex;
-    width: 1080px;
     align-items: center;
     justify-content: space-between;
     padding: 24px 32px;
@@ -88,7 +88,7 @@ html,body{
     gap: 32px;
     position: relative;
     flex: 0 0 auto;
-    margin-left: -991px;
+    margin-left: 600px;
  }
 
 
@@ -161,8 +161,7 @@ html,body{
 
 .header-photo{
     width: 100%;
-    border: 1px solid #43098f;
-    height: 672px;    
+    border: 1px solid #43098f; 
     border-radius: 22px;
     align-self: stretch;
 
@@ -179,7 +178,7 @@ html,body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 48px 0px;
-    gap: 48px;
+    gap: 30px;
     border-bottom: 1px;
     width: 100%;
 
@@ -245,7 +244,6 @@ html,body{
     align-self: stretch;
     border-bottom: 1px;
     width: 100%;
-    height: 698px;
     background-color: #ebf5fd;
     width: calc(100% + 96px); 
     margin: 0 -48px;
@@ -390,6 +388,50 @@ html,body{
 
 }
 
+.socials{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    gap: 48px;
+    width: 100%;
+}
 
+.socialstext{
+    font-family: 'BIZ UDPMincho';
+    color: white;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+.email{
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    justify-content: center;
+}
 
+.socialemail{
+    padding: 8px 12px;
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid black;
 
+}
+.emailbutton{
+    background-color: #440A8F;
+    color: white;
+    height: auto;
+    padding: 12px 24px;
+    border-radius: 8px;
+
+}
+
+.vectorlogos{
+    display: flex;
+    gap: 32px;
+}
